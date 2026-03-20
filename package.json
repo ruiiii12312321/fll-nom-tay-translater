@@ -1,0 +1,17 @@
+{
+  "name": "tay-to-vietnamese-translator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web app for translating Tày language to Vietnamese with OCR and OpenAI models.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.72.0"
+  }
+}
